@@ -27,3 +27,8 @@ class ConfigReader:
     def get_password():
         """Returns the password from the configuration."""
         return ConfigReader.load_config()['credentials']['password']
+    
+    @staticmethod
+    def get_password1():
+        """Returns the password1 from the configuration."""
+        return ConfigReader.load_config()['credentials']['password1']
